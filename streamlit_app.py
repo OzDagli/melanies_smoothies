@@ -41,6 +41,6 @@ if ingredient_list:
         st.success('Your Smoothie is ordered!', icon="✅")
 
 #new section to display smoothiefroot nutrition info
-import request
+import requests
 smoothiefroot_response = request.get("https:my.smoothiefroot.com/api/fruit/watermelon")
 st.text(smoothiefroot_response)
