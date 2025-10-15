@@ -24,7 +24,7 @@ ingredient_list = st.multiselect(
     , max_selections=5
 )
 
-if ingredient_list:
+if ingredients_list:
     ingredients_string = ''
     for fruit_choosen in ingredients_list:
         ingredients_list += fruit_choosen + ' '
